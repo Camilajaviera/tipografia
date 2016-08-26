@@ -1,0 +1,65 @@
+.icon-avion:before {
+  content: "\e903";
+}
+.icon-diama:before {
+  content: "\e901";
+}
+.icon-cora:before {
+  content: "\e900";
+}
+.icon-vaso:before {
+  content: "\e902";
+}
+.icon-plato:before {
+  content: "\e904";
+}
+
+.contenedor{
+		position: relative
+		
+
+}
+.box{
+	border: 1px solid #FFCBE0;
+	width: 210px;
+	height: 320px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	float: left;
+	background-color: #FFCBE0;
+	margin:1px;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+}
+
+span{
+	font-size: 40px;
+	color: #FE2E64;
+}
+h2, h4{
+	font-family:'Indie Flower', cursive;
+	color:#5F072A;
+}
+p{
+	font-family: 'Shadows Into Light', cursive;
+	color:#7E0535;
+
+}
+.box:hover{
+	font-size: 120%;
+	transition-duration: 1s;
+	transform: scale (1.2);
+	z-index: 2;
+	padding-left: 15px;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-bottom: 90px;
+	margin: 10px;
+
+}
+.box:hover span{
+	font-size: 80px;
+}
